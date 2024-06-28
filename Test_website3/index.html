@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MedX-rays</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- navbar -->
+    <nav>
+        <div class="navbar">
+            <div class="navdiv">
+                <div class="logo"> <a href="#">MedX-rays</a> </div>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Contacts</a></li>
+                    <button><a href="login.html">Login</a></button>
+                    <button><a href="register.html">Register</a></button>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- About section2 -->
+    <div class="main">
+        <div class="mainText">
+            <h1>Care Patient At <br> Life Care</h1>
+            <p>Lorem ipsum dolor sit amet consectetur, voluptate <br>
+                amet quis, dolores ducimus ad quae mollitia optio <br>
+                voluptatibus deleniti nesciunt ea neque, deserunt similique.</p>
+            <button>Visit</button>
+        </div>
+        <img src="main.png" alt="">
+    </div>
+
+
+    <!-- ++++++++++++++++++++++++++++++ -->
+    <!-- image container with drag and drop feature -->
+    <div class="image-container">
+        <label for="input-file" id="drop-area">
+            <input type="file" accept="image/*" id="input-file" hidden>
+            <div id="img-view">
+                <img src="icon.png" alt="Upload icon">
+                <p>Drag and drop your X-ray images here or <br> click to upload</p>
+                <span>Upload image from desktop</span>
+            </div>
+        </label>
+    </div>
+
+
+    <!-- ++++++++++++++++++++ -->
+    <div id="speciality">
+        <div class="head">
+            <h1>Our Specialities</h1>
+        </div>
+        <div class="special">
+            <div class="card">
+                <img src="X-ray.png" alt="X-ray Scan Report">
+                <p>X-ray Report</p>
+            </div>
+            <div class="card">
+                <img src="MRI.png" alt="MRI Reports">
+                <p>MRI Reports</p>
+            </div>
+            <div class="card">
+                <img src="ECG.png" alt="ECG Report">
+                <p>ECG Report</p>
+            </div>
+        </div>
+    </div>
+    <!-- ++++++++++++++++++++++++++++++++++++++++++++++ -->
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>
