@@ -1,0 +1,104 @@
+*{
+    text-decoration: none;
+    /* later entered */
+    font-family: 'Calibri', sans-serif;
+    box-sizing: border-box;
+}
+
+.navbar{
+    /* display: flex; */
+    justify-content: space-between;
+    align-items: center;
+    padding-right: 15px;
+    padding-left: 15px;
+    background-color: #c567ff;
+    font-family: 'Calibri', sans-serif;
+
+}
+
+.navdiv{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar a {
+    color: white;
+}
+
+
+.navbar ul li a {
+    color: white;
+}
+.logo a{
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+    margin-right: 24px;
+
+}
+
+.navdiv, ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none; /* Remove default list styling */
+    
+}
+
+ul li {
+    margin-right: 20px; /* Add spacing between menu items */
+}
+
+ul li:last-child {
+    margin-right: 0; /* Remove margin from the last item */
+}
+
+button {
+    padding: 6px 12px; /* Example button padding */
+    margin-left: 9px; /* Spacing between buttons and last menu item */
+    border-radius: 12px;
+    background-color: #f89e7d;
+}
+
+/* drag and drop */
+.image-container{
+    width: 100%;
+    min-height: 100vh;
+    background:linear-gradient(#e7baff,#c2b6d9) ;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#drop-area{
+    width: 500px;
+    height: 300px;
+    padding: 30px;
+    background: #fff;
+    text-align: center;
+    border-radius: 21px;
+}
+
+#img-view{
+    width: 100%;
+    height: 100%;
+    border-radius: 21px;
+    border: 2px dashed #bbb5ff;
+    background: #f7f8ff ;
+    background-position: center;
+    background-size: cover;
+    
+}
+#img-view img{
+
+    width: 100px;
+    margin-top: 24px;
+
+}
+
+
+#img-view span{
+    display:block;
+    font-size: 12px;
+    /* color: # */
+}

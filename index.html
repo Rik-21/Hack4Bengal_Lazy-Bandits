@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MedX-rays</title>  
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- navbar -->
+    <nav>
+        <div class="navbar">
+            <div class = "navdiv">
+                <div class="logo"> <a href="#">MedX-rays</a> </div>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Contacts</a></li>
+                    <button><a href="login.html">Login</a></button>
+                    <button><a href="register.html">Register</a></button>
+                </ul>
+            </div>
+        </div>
+    </nav>    
+
+   <!-- image container with drag and drop feature -->
+    <div class="image-container">
+        <label for="input-file" id = "drop-area">
+            <input type="file" accept = "image/*" id = "input-file" hidden>
+            <div  id = "img-view">
+                <img src = "icon.png">
+                <p>Drag and drop your X-ray images here or <br> click to upload</p>
+                <span>Upload image from desktop</span>
+            </div>
+        </label>
+    </div>    
+    <script src="script.js"></script>
+</body>
+</html>
