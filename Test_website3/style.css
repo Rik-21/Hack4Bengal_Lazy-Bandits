@@ -219,3 +219,19 @@ button {
 }
 
 /* for uniform color */
+
+
+/* footer */
+.footer{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    background-color: black;
+    color: white;
+    padding: 66px;
+    /* margin-top: 66px; */
+}
+.text p{
+    margin-top: 22px;
+}
+ 
